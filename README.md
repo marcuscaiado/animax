@@ -1,0 +1,2 @@
+# animax
+Crunchyroll Like Project
