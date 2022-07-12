@@ -1,4 +1,5 @@
-/* [Table of contents]
+/* 
+[Table of contents]
 
 1.  Template default CSS
 	1.1	Variables
@@ -15,12 +16,9 @@
 9.  Contact
 10.  Footer Style
 -------------------------------------------------------------------*/
-
 /*----------------------------------------*/
-
 /* Template default CSS
 /*----------------------------------------*/
-
 html,
 body {
   height: 100%;
@@ -101,11 +99,9 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
-
 .section-title {
   margin-bottom: 30px;
 }
-
 .section-title h4,
 .section-title h5 {
   color: #ffffff;
@@ -116,7 +112,6 @@ ol {
   position: relative;
   font-family: "Oswald", sans-serif;
 }
-
 .section-title h4:after,
 .section-title h5:after {
   position: absolute;
@@ -153,7 +148,6 @@ ol {
 }
 
 /* buttons */
-
 .primary-btn {
   display: inline-block;
   font-size: 13px;
@@ -162,7 +156,6 @@ ol {
   color: #ffffff;
   letter-spacing: 2px;
 }
-
 .primary-btn span {
   font-size: 18px;
   margin-left: 5px;
@@ -184,7 +177,6 @@ ol {
 }
 
 /* Preloder */
-
 #preloder {
   position: fixed;
   width: 100%;
@@ -228,7 +220,6 @@ ol {
     border-left-color: transparent;
   }
 }
-
 @-webkit-keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);
@@ -246,7 +237,6 @@ ol {
     border-left-color: transparent;
   }
 }
-
 .spacial-controls {
   position: fixed;
   width: 111px;
@@ -315,7 +305,6 @@ ol {
 /*---------------------
   Header
 -----------------------*/
-
 .header {
   background: #070720;
 }
@@ -323,7 +312,6 @@ ol {
 .header__logo {
   padding: 20px 0 17px;
 }
-
 .header__logo a {
   display: inline-block;
 }
@@ -331,37 +319,30 @@ ol {
 .header__menu {
   text-align: center;
 }
-
 .header__menu ul li {
   list-style: none;
   display: inline-block;
   position: relative;
   margin-right: 16px;
 }
-
 .header__menu ul li.active a {
   background: #e53637;
   color: #ffffff;
 }
-
 .header__menu ul li:hover a {
   color: #ffffff;
 }
-
 .header__menu ul li:hover .dropdown {
   top: 62px;
   opacity: 1;
   visibility: visible;
 }
-
 .header__menu ul li:hover .dropdown li a {
   background: transparent;
 }
-
 .header__menu ul li:last-child {
   margin-right: 0;
 }
-
 .header__menu ul li .dropdown {
   position: absolute;
   left: 0;
@@ -374,33 +355,33 @@ ol {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
 }
-
 .header__menu ul li .dropdown li {
   display: block;
   margin-right: 0;
 }
-
 .header__menu ul li .dropdown li a {
   font-size: 14px;
   color: #111111;
   font-weight: 500;
   padding: 5px 20px;
 }
-
 .header__menu ul li a {
   font-size: 15px;
   color: #b7b7b7;
   display: block;
   font-weight: 700;
   -webkit-transition: all, 0.5s;
+  -moz-transition: all, 0.5s;
+  -ms-transition: all, 0.5s;
   -o-transition: all, 0.5s;
   transition: all, 0.5s;
   padding: 20px;
 }
-
 .header__menu ul li a span {
   position: relative;
   font-size: 17px;
@@ -411,14 +392,12 @@ ol {
   text-align: right;
   padding: 20px 0 15px;
 }
-
 .header__right a {
   display: inline-block;
   font-size: 18px;
   color: #ffffff;
   margin-right: 30px;
 }
-
 .header__right a:last-child {
   margin-right: 0;
 }
@@ -430,7 +409,6 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
-
 .hero {
   padding-top: 50px;
 }
@@ -444,7 +422,6 @@ ol {
   position: relative;
   z-index: 9;
 }
-
 .hero__text .label {
   font-size: 13px;
   color: #e53637;
@@ -455,10 +432,11 @@ ol {
   top: -100px;
   opacity: 0;
   -webkit-transition: all, 0.2s;
+  -moz-transition: all, 0.2s;
+  -ms-transition: all, 0.2s;
   -o-transition: all, 0.2s;
   transition: all, 0.2s;
 }
-
 .hero__text h2 {
   color: #ffffff;
   font-size: 42px;
@@ -471,10 +449,11 @@ ol {
   top: -100px;
   opacity: 0;
   -webkit-transition: all, 0.4s;
+  -moz-transition: all, 0.4s;
+  -ms-transition: all, 0.4s;
   -o-transition: all, 0.4s;
   transition: all, 0.4s;
 }
-
 .hero__text p {
   color: #ffffff;
   font-size: 16px;
@@ -483,19 +462,21 @@ ol {
   top: -100px;
   opacity: 0;
   -webkit-transition: all, 0.6s;
+  -moz-transition: all, 0.6s;
+  -ms-transition: all, 0.6s;
   -o-transition: all, 0.6s;
   transition: all, 0.6s;
 }
-
 .hero__text a {
   position: relative;
   top: -100px;
   opacity: 0;
   -webkit-transition: all, 0.8s;
+  -moz-transition: all, 0.8s;
+  -ms-transition: all, 0.8s;
   -o-transition: all, 0.8s;
   transition: all, 0.8s;
 }
-
 .hero__text a span {
   font-size: 13px;
   color: #ffffff;
@@ -508,7 +489,6 @@ ol {
   border-radius: 4px 0 0 4px;
   margin-right: 1px;
 }
-
 .hero__text a i {
   font-size: 20px;
   display: inline-block;
@@ -522,22 +502,18 @@ ol {
   top: 0;
   opacity: 1;
 }
-
 .hero__slider.owl-carousel .owl-item.active .hero__text h2 {
   top: 0;
   opacity: 1;
 }
-
 .hero__slider.owl-carousel .owl-item.active .hero__text p {
   top: 0;
   opacity: 1;
 }
-
 .hero__slider.owl-carousel .owl-item.active .hero__text a {
   top: 0;
   opacity: 1;
 }
-
 .hero__slider.owl-carousel .owl-dots {
   position: absolute;
   left: 0;
@@ -545,7 +521,6 @@ ol {
   width: 100%;
   text-align: center;
 }
-
 .hero__slider.owl-carousel .owl-dots button {
   height: 8px;
   width: 8px;
@@ -553,15 +528,12 @@ ol {
   border-radius: 50%;
   margin-right: 10px;
 }
-
 .hero__slider.owl-carousel .owl-dots button.active {
   background: #ffffff;
 }
-
 .hero__slider.owl-carousel .owl-dots button:last-child {
   margin-right: 0;
 }
-
 .hero__slider.owl-carousel .owl-nav button {
   font-size: 36px;
   height: 66px;
@@ -571,7 +543,6 @@ ol {
   text-align: center;
   color: #ffffff;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   position: relative;
   z-index: 1;
@@ -580,12 +551,10 @@ ol {
   top: 50%;
   margin-top: -47px;
 }
-
 .hero__slider.owl-carousel .owl-nav button.owl-next {
   left: auto;
   right: -33px;
 }
-
 .hero__slider.owl-carousel .owl-nav button:after {
   position: absolute;
   top: 6px;
@@ -598,10 +567,8 @@ ol {
   z-index: -1;
   margin: 0 auto;
 }
-
 .hero__slider.owl-carousel .owl-nav button span {
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   display: block;
   z-index: 1;
@@ -610,7 +577,6 @@ ol {
 /*---------------------
   Product
 -----------------------*/
-
 .product {
   padding-bottom: 60px;
   padding-top: 80px;
@@ -646,7 +612,6 @@ ol {
   position: relative;
   border-radius: 5px;
 }
-
 .product__item__pic .ep {
   font-size: 13px;
   color: #ffffff;
@@ -658,7 +623,6 @@ ol {
   left: 10px;
   top: 10px;
 }
-
 .product__item__pic .comment {
   font-size: 13px;
   color: #ffffff;
@@ -670,7 +634,6 @@ ol {
   left: 10px;
   bottom: 10px;
 }
-
 .product__item__pic .view {
   font-size: 13px;
   color: #ffffff;
@@ -686,11 +649,9 @@ ol {
 .product__item__text {
   padding-top: 20px;
 }
-
 .product__item__text ul {
   margin-bottom: 10px;
 }
-
 .product__item__text ul li {
   list-style: none;
   font-size: 10px;
@@ -701,7 +662,6 @@ ol {
   border-radius: 50px;
   display: inline-block;
 }
-
 .product__item__text h5 a {
   color: #ffffff;
   font-weight: 700;
@@ -717,7 +677,6 @@ ol {
   padding-left: 20px;
   position: relative;
 }
-
 .product__sidebar .section-title h5:after {
   position: absolute;
   left: 0;
@@ -732,13 +691,11 @@ ol {
   position: relative;
   margin-bottom: 80px;
 }
-
 .product__sidebar__view .filter__controls {
   position: absolute;
   right: 0;
   top: -5px;
 }
-
 .product__sidebar__view .filter__controls li {
   list-style: none;
   font-size: 13px;
@@ -747,11 +704,9 @@ ol {
   margin-right: 7px;
   cursor: pointer;
 }
-
 .product__sidebar__view .filter__controls li.active {
   color: #ffffff;
 }
-
 .product__sidebar__view .filter__controls li:last-child {
   margin-right: 0;
 }
@@ -762,7 +717,6 @@ ol {
   border-radius: 5px;
   margin-bottom: 20px;
 }
-
 .product__sidebar__view__item .ep {
   font-size: 13px;
   color: #ffffff;
@@ -774,7 +728,6 @@ ol {
   left: 10px;
   top: 10px;
 }
-
 .product__sidebar__view__item .view {
   font-size: 13px;
   color: #ffffff;
@@ -786,7 +739,6 @@ ol {
   right: 10px;
   top: 10px;
 }
-
 .product__sidebar__view__item h5 {
   position: absolute;
   left: 0;
@@ -794,7 +746,6 @@ ol {
   width: 100%;
   padding: 0 30px 0 20px;
 }
-
 .product__sidebar__view__item h5 a {
   color: #ffffff;
   font-weight: 700;
@@ -818,11 +769,9 @@ ol {
 .product__sidebar__comment__item__text {
   overflow: hidden;
 }
-
 .product__sidebar__comment__item__text ul {
   margin-bottom: 10px;
 }
-
 .product__sidebar__comment__item__text ul li {
   list-style: none;
   font-size: 10px;
@@ -833,17 +782,14 @@ ol {
   border-radius: 50px;
   display: inline-block;
 }
-
 .product__sidebar__comment__item__text h5 {
   margin-bottom: 10px;
 }
-
 .product__sidebar__comment__item__text h5 a {
   color: #ffffff;
   font-weight: 700;
   line-height: 26px;
 }
-
 .product__sidebar__comment__item__text span {
   display: block;
   font-size: 13px;
@@ -855,22 +801,18 @@ ol {
   padding-bottom: 10px;
   margin-bottom: 30px;
 }
-
 .product__page__title .section-title {
   margin-bottom: 0;
 }
-
 .product__page__title .product__page__filter {
   text-align: right;
 }
-
 .product__page__title .product__page__filter p {
   color: #ffffff;
   display: inline-block;
   margin-bottom: 0;
   margin-right: 16px;
 }
-
 .product__page__title .product__page__filter .nice-select {
   float: none;
   display: inline-block;
@@ -883,7 +825,6 @@ ol {
   height: 32px;
   line-height: 32px;
 }
-
 .product__page__title .product__page__filter .nice-select:after {
   border-bottom: 2px solid #111;
   border-right: 2px solid #111;
@@ -892,7 +833,6 @@ ol {
   width: 8px;
   right: 15px;
 }
-
 .product__page__title .product__page__filter .nice-select .list {
   margin-top: 0;
   border-radius: 0;
@@ -901,7 +841,6 @@ ol {
 .product__pagination {
   padding-top: 15px;
 }
-
 .product__pagination a {
   display: inline-block;
   font-size: 15px;
@@ -914,18 +853,17 @@ ol {
   line-height: 48px;
   text-align: center;
   -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
 }
-
 .product__pagination a:hover {
   color: #ffffff;
 }
-
 .product__pagination a.current-page {
   border: 1px solid #ffffff;
 }
-
 .product__pagination a i {
   color: #b7b7b7;
   font-size: 15px;
@@ -934,7 +872,6 @@ ol {
 /*---------------------
   Anime Details
 -----------------------*/
-
 .anime-details {
   padding-top: 60px;
 }
@@ -946,7 +883,6 @@ ol {
 .anime__details__text {
   position: relative;
 }
-
 .anime__details__text p {
   color: #b7b7b7;
   font-size: 18px;
@@ -958,7 +894,6 @@ ol {
   border-radius: 5px;
   position: relative;
 }
-
 .anime__details__pic .comment {
   font-size: 13px;
   color: #ffffff;
@@ -970,7 +905,6 @@ ol {
   left: 10px;
   bottom: 25px;
 }
-
 .anime__details__pic .view {
   font-size: 13px;
   color: #ffffff;
@@ -986,13 +920,11 @@ ol {
 .anime__details__title {
   margin-bottom: 20px;
 }
-
 .anime__details__title h3 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 13px;
 }
-
 .anime__details__title span {
   font-size: 15px;
   color: #b7b7b7;
@@ -1005,13 +937,11 @@ ol {
   right: 0;
   top: 0;
 }
-
 .anime__details__rating .rating i {
   font-size: 24px;
   color: #e89f12;
   display: inline-block;
 }
-
 .anime__details__rating span {
   display: block;
   font-size: 18px;
@@ -1021,11 +951,9 @@ ol {
 .anime__details__widget {
   margin-bottom: 15px;
 }
-
 .anime__details__widget ul {
   margin-bottom: 20px;
 }
-
 .anime__details__widget ul li {
   list-style: none;
   font-size: 15px;
@@ -1034,7 +962,6 @@ ol {
   position: relative;
   padding-left: 18px;
 }
-
 .anime__details__widget ul li:before {
   position: absolute;
   left: 0;
@@ -1044,7 +971,6 @@ ol {
   background: #b7b7b7;
   content: "";
 }
-
 .anime__details__widget ul li span {
   color: #b7b7b7;
   width: 115px;
@@ -1063,7 +989,6 @@ ol {
   border-radius: 4px;
   margin-right: 11px;
 }
-
 .anime__details__btn .watch-btn span {
   font-size: 13px;
   color: #ffffff;
@@ -1076,7 +1001,6 @@ ol {
   border-radius: 4px 0 0 4px;
   margin-right: 1px;
 }
-
 .anime__details__btn .watch-btn i {
   font-size: 20px;
   display: inline-block;
@@ -1100,7 +1024,6 @@ ol {
   margin-right: 20px;
   position: relative;
 }
-
 .anime__review__item__pic:before {
   position: absolute;
   right: -30px;
@@ -1108,11 +1031,8 @@ ol {
   border-top: 15px solid transparent;
   border-left: 15px solid #1d1e39;
   content: "";
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
 .anime__review__item__pic img {
   height: 50px;
   width: 50px;
@@ -1125,18 +1045,15 @@ ol {
   padding: 18px 30px 16px 20px;
   border-radius: 10px;
 }
-
 .anime__review__item__text h6 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 10px;
 }
-
 .anime__review__item__text h6 span {
   color: #b7b7b7;
   font-weight: 400;
 }
-
 .anime__review__item__text p {
   color: #b7b7b7;
   line-height: 23px;
@@ -1155,7 +1072,6 @@ ol {
   resize: none;
   margin-bottom: 24px;
 }
-
 .anime__details__form form button {
   font-size: 11px;
   color: #ffffff;
@@ -1171,90 +1087,69 @@ ol {
 /*---------------------
   Anime Watching
 -----------------------*/
-
 .anime__video__player {
   margin-bottom: 70px;
 }
-
 .anime__video__player .plyr--video {
   border-radius: 5px;
   background: transparent;
 }
-
 .anime__video__player .plyr audio,
 .anime__video__player .plyr iframe,
 .anime__video__player .plyr video {
   width: 102%;
 }
-
 .anime__video__player .plyr--full-ui.plyr--video .plyr__control--overlaid {
   display: block;
 }
-
 .anime__video__player .plyr--video .plyr__control.plyr__tab-focus,
 .anime__video__player .plyr--video .plyr__control:hover,
-.anime__video__player .plyr--video .plyr__control[aria-expanded="true"] {
+.anime__video__player .plyr--video .plyr__control[aria-expanded=true] {
   background: transparent;
 }
-
 .anime__video__player .plyr--video .plyr__controls {
   background: transparent;
 }
-
 .anime__video__player .plyr--video .plyr__progress__buffer {
   color: transparent;
 }
-
-.anime__video__player .plyr--full-ui input[type="range"] {
+.anime__video__player .plyr--full-ui input[type=range] {
   color: #ffffff;
 }
-
-.anime__video__player
-  .plyr__controls
-  .plyr__controls__item.plyr__progress__container {
+.anime__video__player .plyr__controls .plyr__controls__item.plyr__progress__container {
   position: absolute;
   left: 26px;
   bottom: 45px;
   width: calc(100% - 60px);
 }
-
 .anime__video__player .plyr__menu {
   margin-right: 70px;
 }
-
 .anime__video__player .plyr__controls .plyr__controls__item:first-child {
   position: absolute;
   left: 32px;
   bottom: 8px;
 }
-
 .anime__video__player .plyr__controls .plyr__controls__item:last-child {
   position: absolute;
   right: 32px;
   bottom: 8px;
 }
-
 .anime__video__player .plyr__volume {
   position: absolute;
   width: auto;
   left: 76px;
   bottom: 8px;
 }
-
 .anime__video__player .plyr__controls .plyr__controls__item.plyr__time {
   position: absolute;
   left: 106px;
   bottom: 12px;
 }
-
 .anime__video__player .plyr__control--overlaid {
   background: transparent;
-  background: var(
-    --plyr-video-control-background-hover,
-    var(--plyr-color-main, var(--plyr-color-main, transparent))
-  );
+  background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, transparent)));
 }
-
 .anime__video__player .plyr__control--overlaid svg {
   height: 60px;
   width: 50px;
@@ -1263,7 +1158,6 @@ ol {
 .anime__details__episodes {
   margin-bottom: 35px;
 }
-
 .anime__details__episodes a {
   display: inline-block;
   font-size: 15px;
@@ -1274,10 +1168,11 @@ ol {
   margin-right: 15px;
   margin-bottom: 20px;
   -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
 }
-
 .anime__details__episodes a:hover {
   color: #000000;
   background: #ffffff;
@@ -1286,7 +1181,6 @@ ol {
 /*---------------------
   Breadcrumb
 -----------------------*/
-
 .breadcrumb-option {
   padding-top: 35px;
 }
@@ -1298,20 +1192,17 @@ ol {
   display: inline-block;
   position: relative;
 }
-
 .breadcrumb__links a i {
   margin-right: 5px;
   color: #e53637;
 }
-
 .breadcrumb__links a:after {
   position: absolute;
   right: -14px;
   top: 0;
-  content: "";
+  content: "\f105";
   font-family: "FontAwesome";
 }
-
 .breadcrumb__links span {
   font-size: 15px;
   color: #b7b7b7;
@@ -1321,17 +1212,10 @@ ol {
 /*---------------------
     Normal Breadcrumb
 -----------------------*/
-
 .normal-breadcrumb {
   height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -1342,7 +1226,6 @@ ol {
   font-weight: 700;
   margin-bottom: 22px;
 }
-
 .normal__breadcrumb__text p {
   color: #ffffff;
   font-size: 24px;
@@ -1352,7 +1235,6 @@ ol {
 /*---------------------
     Blog
 -----------------------*/
-
 .blog {
   padding-top: 70px;
   padding-bottom: 90px;
@@ -1365,19 +1247,15 @@ ol {
   margin-right: -10px;
   margin-bottom: 10px;
 }
-
 .blog__item.small__item {
   height: 285px;
 }
-
 .blog__item.small__item .blog__item__text {
   padding: 0 30px;
 }
-
 .blog__item.small__item .blog__item__text p {
   margin-bottom: 5px;
 }
-
 .blog__item.small__item .blog__item__text h4 a {
   font-size: 20px;
   line-height: 30px;
@@ -1391,17 +1269,14 @@ ol {
   width: 100%;
   padding: 0 105px;
 }
-
 .blog__item__text p {
   color: #ffffff;
   margin-bottom: 12px;
 }
-
 .blog__item__text p span {
   color: #e53637;
   margin-right: 5px;
 }
-
 .blog__item__text h4 a {
   color: #ffffff;
   line-height: 34px;
@@ -1410,7 +1285,6 @@ ol {
 /*---------------------
   Blog Details
 -----------------------*/
-
 .blog-details {
   padding-top: 70px;
 }
@@ -1419,7 +1293,6 @@ ol {
   text-align: center;
   margin-bottom: 70px;
 }
-
 .blog__details__title h6 {
   font-size: 15px;
   color: #ffffff;
@@ -1427,13 +1300,11 @@ ol {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 .blog__details__title h6 span {
   color: #b7b7b7;
   font-weight: 400;
   text-transform: none;
 }
-
 .blog__details__title h2 {
   color: #ffffff;
   font-size: 48px;
@@ -1441,7 +1312,6 @@ ol {
   line-height: 60px;
   margin-bottom: 38px;
 }
-
 .blog__details__title .blog__details__social a {
   display: inline-block;
   font-size: 15px;
@@ -1450,27 +1320,21 @@ ol {
   border-radius: 2px;
   margin-right: 6px;
 }
-
 .blog__details__title .blog__details__social a:last-child {
   margin-right: 0;
 }
-
 .blog__details__title .blog__details__social a.facebook {
   background: #3b5998;
 }
-
 .blog__details__title .blog__details__social a.pinterest {
   background: #ca2027;
 }
-
 .blog__details__title .blog__details__social a.linkedin {
   background: #0372b1;
 }
-
 .blog__details__title .blog__details__social a.twitter {
   background: #39a1f2;
 }
-
 .blog__details__title .blog__details__social a i {
   margin-right: 6px;
 }
@@ -1478,7 +1342,6 @@ ol {
 .blog__details__pic {
   margin-bottom: 30px;
 }
-
 .blog__details__pic img {
   min-width: 100%;
 }
@@ -1486,7 +1349,6 @@ ol {
 .blog__details__text {
   margin-bottom: 40px;
 }
-
 .blog__details__text p {
   color: #ffffff;
   font-size: 17px;
@@ -1496,18 +1358,15 @@ ol {
 .blog__details__item__text {
   margin-bottom: 42px;
 }
-
 .blog__details__item__text h4 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 35px;
 }
-
 .blog__details__item__text img {
   min-width: 100%;
   margin-bottom: 26px;
 }
-
 .blog__details__item__text p {
   color: #ffffff;
   font-size: 17px;
@@ -1518,7 +1377,6 @@ ol {
 .blog__details__tags {
   margin-bottom: 60px;
 }
-
 .blog__details__tags a {
   display: inline-block;
   color: #b7b7b7;
@@ -1532,7 +1390,6 @@ ol {
   padding: 6px 15px;
   margin-bottom: 10px;
 }
-
 .blog__details__tags a:last-child {
   margin-right: 0;
 }
@@ -1547,17 +1404,14 @@ ol {
 .blog__details__btns__item {
   margin-bottom: 20px;
 }
-
 .blog__details__btns__item.next__btn {
   text-align: right;
 }
-
 .blog__details__btns__item h5 a {
   font-size: 17px;
   letter-spacing: 2px;
   color: #ffffff;
 }
-
 .blog__details__btns__item h5 a span {
   font-size: 30px;
   color: #b7b7b7;
@@ -1569,7 +1423,6 @@ ol {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 30px;
 }
-
 .blog__details__comment h4 {
   color: #ffffff;
   font-weight: 700;
@@ -1580,7 +1433,6 @@ ol {
   margin-bottom: 40px;
   overflow: hidden;
 }
-
 .blog__details__comment__item.blog__details__comment__item--reply {
   padding-left: 112px;
 }
@@ -1593,27 +1445,23 @@ ol {
 .blog__details__comment__item__text {
   overflow: hidden;
 }
-
 .blog__details__comment__item__text span {
   font-size: 14px;
   color: #b7b7b7;
   display: block;
   margin-bottom: 10px;
 }
-
 .blog__details__comment__item__text h5 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 10px;
 }
-
 .blog__details__comment__item__text p {
   color: #b7b7b7;
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 25px;
 }
-
 .blog__details__comment__item__text a {
   display: inline-block;
   color: #ffffff;
@@ -1623,10 +1471,11 @@ ol {
   border-radius: 2px;
   margin-right: 14px;
   -webkit-transition: all, 0.3s;
+  -moz-transition: all, 0.3s;
+  -ms-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
 }
-
 .blog__details__comment__item__text a:hover {
   background: #e53637;
 }
@@ -1634,13 +1483,11 @@ ol {
 .blog__details__form {
   padding-top: 50px;
 }
-
 .blog__details__form h4 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 26px;
 }
-
 .blog__details__form form input {
   height: 50px;
   width: 100%;
@@ -1652,27 +1499,9 @@ ol {
   border: none;
   margin-bottom: 30px;
 }
-
-.blog__details__form form input::-webkit-input-placeholder {
-  color: #a6a6a6;
-}
-
-.blog__details__form form input::-moz-placeholder {
-  color: #a6a6a6;
-}
-
-.blog__details__form form input:-ms-input-placeholder {
-  color: #a6a6a6;
-}
-
-.blog__details__form form input::-ms-input-placeholder {
-  color: #a6a6a6;
-}
-
 .blog__details__form form input::placeholder {
   color: #a6a6a6;
 }
-
 .blog__details__form form textarea {
   height: 115px;
   width: 100%;
@@ -1686,23 +1515,6 @@ ol {
   border: none;
   margin-bottom: 34px;
 }
-
-.blog__details__form form textarea::-webkit-input-placeholder {
-  color: #a6a6a6;
-}
-
-.blog__details__form form textarea::-moz-placeholder {
-  color: #a6a6a6;
-}
-
-.blog__details__form form textarea:-ms-input-placeholder {
-  color: #a6a6a6;
-}
-
-.blog__details__form form textarea::-ms-input-placeholder {
-  color: #a6a6a6;
-}
-
 .blog__details__form form textarea::placeholder {
   color: #a6a6a6;
 }
@@ -1710,7 +1522,6 @@ ol {
 /*---------------------
   Login
 -----------------------*/
-
 .login {
   padding-top: 130px;
   padding-bottom: 120px;
@@ -1720,7 +1531,6 @@ ol {
   position: relative;
   padding-left: 145px;
 }
-
 .login__form:after {
   position: absolute;
   right: -14px;
@@ -1730,20 +1540,17 @@ ol {
   background: rgba(255, 255, 255, 0.2);
   content: "";
 }
-
 .login__form h3 {
   color: #ffffff;
   font-weight: 700;
   font-family: "Oswald", sans-serif;
   margin-bottom: 30px;
 }
-
 .login__form form .input__item {
   position: relative;
   width: 370px;
   margin-bottom: 20px;
 }
-
 .login__form form .input__item:before {
   position: absolute;
   left: 50px;
@@ -1753,7 +1560,6 @@ ol {
   background: #b7b7b7;
   content: "";
 }
-
 .login__form form .input__item input {
   height: 50px;
   width: 100%;
@@ -1763,27 +1569,9 @@ ol {
   border: none;
   padding-left: 76px;
 }
-
-.login__form form .input__item input::-webkit-input-placeholder {
-  color: #b7b7b7;
-}
-
-.login__form form .input__item input::-moz-placeholder {
-  color: #b7b7b7;
-}
-
-.login__form form .input__item input:-ms-input-placeholder {
-  color: #b7b7b7;
-}
-
-.login__form form .input__item input::-ms-input-placeholder {
-  color: #b7b7b7;
-}
-
 .login__form form .input__item input::placeholder {
   color: #b7b7b7;
 }
-
 .login__form form .input__item span {
   color: #b7b7b7;
   font-size: 20px;
@@ -1791,12 +1579,10 @@ ol {
   left: 15px;
   top: 13px;
 }
-
 .login__form form button {
   border-radius: 0;
   margin-top: 10px;
 }
-
 .login__form .forget_pass {
   font-size: 15px;
   color: #ffffff;
@@ -1809,14 +1595,12 @@ ol {
 .login__register {
   padding-left: 30px;
 }
-
 .login__register h3 {
   color: #ffffff;
   font-weight: 700;
   font-family: "Oswald", sans-serif;
   margin-bottom: 30px;
 }
-
 .login__register .primary-btn {
   background: #e53637;
   padding: 12px 42px;
@@ -1829,7 +1613,6 @@ ol {
 .login__social__links {
   text-align: center;
 }
-
 .login__social__links span {
   color: #ffffff;
   display: block;
@@ -1839,16 +1622,13 @@ ol {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 .login__social__links ul li {
   list-style: none;
   margin-bottom: 15px;
 }
-
 .login__social__links ul li:last-child {
   margin-bottom: 0;
 }
-
 .login__social__links ul li a {
   color: #ffffff;
   display: block;
@@ -1861,19 +1641,15 @@ ol {
   position: relative;
   margin: 0 auto;
 }
-
 .login__social__links ul li a.facebook {
   background: #4267b2;
 }
-
 .login__social__links ul li a.google {
   background: #ff4343;
 }
-
 .login__social__links ul li a.twitter {
   background: #1da1f2;
 }
-
 .login__social__links ul li a i {
   font-size: 20px;
   position: absolute;
@@ -1884,39 +1660,32 @@ ol {
 /*---------------------
   Sign Up
 -----------------------*/
-
 .signup {
   padding-top: 130px;
   padding-bottom: 150px;
 }
-
 .signup .login__form:after {
   height: 450px;
 }
-
 .signup .login__form h5 {
   font-size: 15px;
   color: #ffffff;
   margin-top: 36px;
 }
-
 .signup .login__form h5 a {
   color: #e53637;
   font-weight: 700;
 }
-
 .signup .login__social__links {
   text-align: left;
   padding-left: 40px;
 }
-
 .signup .login__social__links h3 {
   color: #ffffff;
   font-weight: 700;
   font-family: "Oswald", sans-serif;
   margin-bottom: 30px;
 }
-
 .signup .login__social__links ul li a {
   margin: 0;
   text-align: center;
@@ -1925,7 +1694,6 @@ ol {
 /*---------------------
   Footer
 -----------------------*/
-
 .footer {
   background: #070720;
   padding-top: 60px;
@@ -1939,7 +1707,6 @@ ol {
   top: -25px;
   margin-left: -25px;
 }
-
 .page-up a {
   display: inline-block;
   font-size: 36px;
@@ -1951,7 +1718,6 @@ ol {
   text-align: center;
   border-radius: 50%;
 }
-
 .page-up a span {
   position: relative;
   top: 2px;
@@ -1961,18 +1727,15 @@ ol {
 .footer__nav {
   text-align: center;
 }
-
 .footer__nav ul li {
   list-style: none;
   display: inline-block;
   position: relative;
   margin-right: 40px;
 }
-
 .footer__nav ul li:last-child {
   margin-right: 0;
 }
-
 .footer__nav ul li a {
   font-size: 15px;
   color: #b7b7b7;
@@ -1985,69 +1748,70 @@ ol {
   margin-bottom: 0;
   text-align: right;
 }
-
 .footer__copyright__text a {
   color: #e53637;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
-
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
   .hero {
     overflow: hidden;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1170px;
   }
 }
-
 /* Medium Device = 1200px */
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero {
     overflow: hidden;
   }
+
   .login__form {
     position: relative;
     padding-left: 32px;
   }
+
   .login__social__links ul li a {
     width: 380px;
   }
+
   .blog__item__text {
     padding: 0 50px;
   }
 }
-
 /* Tablet Device = 768px */
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero {
     overflow: hidden;
   }
+
   .header {
     position: relative;
   }
   .header .container {
     position: relative;
   }
+
   .header__right {
     position: absolute;
     right: 120px;
     top: -42px;
     padding: 0;
   }
+
   .header__menu {
     display: none;
   }
+
   .slicknav_menu {
     background: transparent;
     padding: 0;
     display: block;
   }
+
   .slicknav_nav {
     position: absolute;
     left: 0;
@@ -2057,58 +1821,78 @@ ol {
     padding: 15px 30px;
     z-index: 9;
   }
+
   .slicknav_nav ul {
     margin: 0;
   }
+
   .slicknav_nav .slicknav_row,
-  .slicknav_nav a {
+.slicknav_nav a {
     padding: 7px 0;
     margin: 0;
     color: #111111;
     font-weight: 600;
   }
+
   .slicknav_btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
     background-color: #222;
     position: absolute;
     right: 0;
     top: 9px;
   }
+
   .slicknav_nav .slicknav_arrow {
     color: #111111;
   }
+
   .slicknav_nav .slicknav_row:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
     background: transparent;
     color: #111111;
   }
+
   .slicknav_nav a:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
     background: transparent;
     color: #111111;
   }
+
   .product__sidebar {
     padding-top: 50px;
   }
+
   .footer__logo {
     text-align: center;
     margin-bottom: 20px;
   }
+
   .footer__nav {
     margin-bottom: 15px;
   }
+
   .footer__copyright__text {
     text-align: center;
   }
+
   .anime__details__widget ul li span {
     width: 90px;
   }
+
   .anime__details__pic {
     margin-bottom: 40px;
   }
+
   .anime__details__sidebar {
     padding-top: 50px;
   }
+
   .login__form {
     padding-left: 0;
     margin-bottom: 40px;
@@ -2116,43 +1900,49 @@ ol {
   .login__form:after {
     display: none;
   }
+
   .login__form form .input__item {
     width: auto;
   }
+
   .login__register {
     padding-left: 0;
   }
+
   .signup .login__social__links {
     padding-left: 0;
   }
 }
-
 /* Wide Mobile = 480px */
-
 @media only screen and (max-width: 767px) {
   .hero {
     overflow: hidden;
   }
+
   .header {
     position: relative;
   }
   .header .container {
     position: relative;
   }
+
   .header__right {
     position: absolute;
     right: 120px;
     top: -42px;
     padding: 0;
   }
+
   .header__menu {
     display: none;
   }
+
   .slicknav_menu {
     background: transparent;
     padding: 0;
     display: block;
   }
+
   .slicknav_nav {
     position: absolute;
     left: 0;
@@ -2162,82 +1952,108 @@ ol {
     padding: 15px 30px;
     z-index: 9;
   }
+
   .slicknav_nav ul {
     margin: 0;
   }
+
   .slicknav_nav .slicknav_row,
-  .slicknav_nav a {
+.slicknav_nav a {
     padding: 7px 0;
     margin: 0;
     color: #111111;
     font-weight: 600;
   }
+
   .slicknav_btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
     background-color: #222;
     position: absolute;
     right: 0;
     top: 9px;
   }
+
   .slicknav_nav .slicknav_arrow {
     color: #111111;
   }
+
   .slicknav_nav .slicknav_row:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
     background: transparent;
     color: #111111;
   }
+
   .slicknav_nav a:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
     background: transparent;
     color: #111111;
   }
+
   .product__sidebar {
     padding-top: 50px;
   }
+
   .footer__logo {
     text-align: center;
     margin-bottom: 20px;
   }
+
   .footer__nav {
     margin-bottom: 15px;
   }
+
   .footer__copyright__text {
     text-align: center;
   }
+
   .blog__details__title h2 {
     font-size: 34px;
     line-height: normal;
   }
+
   .anime__details__pic {
     margin-bottom: 40px;
   }
+
   .anime__details__sidebar {
     padding-top: 50px;
   }
+
   .btn__all {
     text-align: left;
   }
+
   .product__page__title .section-title {
     margin-bottom: 30px;
   }
+
   .product__page__title .product__page__filter {
     text-align: left;
   }
+
   .anime__details__rating {
     text-align: left;
     position: relative;
     margin-bottom: 20px;
   }
+
   .blog__details__social {
     overflow: hidden;
   }
+
   .blog__details__title .blog__details__social a {
     margin-right: 10px;
     margin-bottom: 10px;
     width: calc(50% - 10px);
     float: left;
   }
+
   .login__form {
     padding-left: 0;
     margin-bottom: 40px;
@@ -2245,93 +2061,118 @@ ol {
   .login__form:after {
     display: none;
   }
+
   .login__form form .input__item {
     width: auto;
   }
+
   .signup .login__social__links {
     padding-left: 0;
   }
+
   .login__social__links ul li a {
     width: auto;
   }
+
   .blog__item__text {
     padding: 0 30px;
   }
+
   .login__register {
     padding-left: 0;
   }
+
   .product__sidebar__view .filter__controls li {
     margin-right: 2px;
   }
+
   .search-model-form input {
     width: 100%;
   }
 }
-
 /* Small Device = 320px */
-
 @media only screen and (max-width: 479px) {
   .hero__slider.owl-carousel .owl-nav {
     display: none;
   }
+
   .hero__items {
     padding: 250px 0 42px 15px;
   }
+
   .hero__text h2 {
     font-size: 32px;
   }
+
   .footer__nav ul li {
     margin-right: 10px;
   }
+
   .anime__details__btn .follow-btn {
     padding: 14px 26px;
     margin-right: 11px;
     margin-bottom: 25px;
   }
+
   .anime__details__widget ul li span {
     width: 85px;
   }
+
   .anime__video__player .plyr__volume {
     left: 65px;
   }
+
   .anime__video__player .plyr__controls .plyr__controls__item.plyr__time {
     left: 95px;
   }
+
   .anime__video__player .plyr__menu {
     margin-right: 60px;
   }
+
   .blog__details__title h2 {
     font-size: 30px;
     line-height: normal;
   }
+
   .blog__details__title .blog__details__social a {
     padding: 16px 25px 14px 20px;
   }
+
   .blog__details__comment__item.blog__details__comment__item--reply {
     padding-left: 0;
   }
+
   .blog__details__comment__item__pic {
     margin-right: 25px;
   }
+
   .blog__details__comment__item__text a {
     margin-right: 6px;
   }
+
   .login__social__links ul li a i {
     left: 20px;
   }
+
   .login__form .forget_pass {
     position: relative;
     left: 0;
     bottom: 0;
     margin-top: 25px;
   }
+
   .header__right a {
     margin-right: 10px;
   }
+
   .anime__review__item__text h6 span {
     font-size: 12px;
   }
+
   .anime__review__item__text {
     padding: 18px 20px 20px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
