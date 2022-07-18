@@ -4,7 +4,6 @@
 .product {
   padding-bottom: 60px;
   padding-top: 80px;
-
 }
 
 .product-page {
@@ -93,7 +92,6 @@
   }
 
   h5 {
-    
     a {
       color: $white-color;
       font-weight: 700;
@@ -103,13 +101,11 @@
 }
 
 .product__sidebar {
-
   .section-title {
-
-      h5 {
+    h5 {
       color: $white-color;
       font-weight: 600;
-      font-family: 'Oswald', sans-serif;
+      font-family: "Oswald", sans-serif;
       line-height: 21px;
       text-transform: uppercase;
       padding-left: 20px;
@@ -235,7 +231,7 @@
 
   h5 {
     margin-bottom: 10px;
-    
+
     a {
       color: $white-color;
       font-weight: 700;
@@ -281,13 +277,13 @@
       height: 32px;
       line-height: 32px;
 
-        &:after {
-          border-bottom: 2px solid #111;
-          border-right: 2px solid #111;
-          height: 8px;
-          top: 47%;
-          width: 8px;
-          right: 15px;
+      &:after {
+        border-bottom: 2px solid #111;
+        border-right: 2px solid #111;
+        height: 8px;
+        top: 47%;
+        width: 8px;
+        right: 15px;
       }
 
       .list {
@@ -312,7 +308,7 @@
     border-radius: 50%;
     line-height: 48px;
     text-align: center;
-    @include transition(all, .3s);
+    @include transition(all, 0.3s);
 
     &:hover {
       color: #ffffff;
