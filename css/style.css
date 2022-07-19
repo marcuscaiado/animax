@@ -1547,6 +1547,10 @@ ol {
   Login
 -----------------------*/
 .login {
+  background-color: #d37123;
+}
+
+.login {
   padding-top: 130px;
   padding-bottom: 120px;
 }
@@ -1684,6 +1688,10 @@ ol {
 /*---------------------
   Sign Up
 -----------------------*/
+.signup {
+  background-color: #d37123;
+}
+
 .signup {
   padding-top: 130px;
   padding-bottom: 150px;
