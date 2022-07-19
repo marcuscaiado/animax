@@ -8,6 +8,10 @@
   position: relative;
 }
 
+.footer {
+  background-color: #ff6500;
+}
+
 .page-up {
   position: absolute;
   left: 50%;
@@ -37,7 +41,6 @@
   text-align: center;
 
   ul {
-
     li {
       list-style: none;
       display: inline-block;

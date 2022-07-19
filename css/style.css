@@ -306,7 +306,7 @@ ol {
   Header
 -----------------------*/
 .header {
-  background: #070720;
+  background: #e04508;
 }
 
 .header__logo {
@@ -411,6 +411,10 @@ ol {
 -----------------------*/
 .hero {
   padding-top: 50px;
+}
+
+.hero {
+  background-color: #ff6500;
 }
 
 .hero__items {
@@ -580,6 +584,14 @@ ol {
 .product {
   padding-bottom: 60px;
   padding-top: 80px;
+}
+
+.product {
+  background-color: #e04508;
+}
+
+.product-page {
+  background-color: #d37123;
 }
 
 .product-page {
@@ -873,6 +885,10 @@ ol {
   Anime Details
 -----------------------*/
 .anime-details {
+  background-color: #d37123;
+}
+
+.anime-details {
   padding-top: 60px;
 }
 
@@ -1084,11 +1100,6 @@ ol {
   border-radius: 2px;
 }
 
-.pudimz {
-  width: fit-content;
-  background-color: orange;
-}
-
 /*---------------------
   Anime Watching
 -----------------------*/
@@ -1187,6 +1198,10 @@ ol {
   Breadcrumb
 -----------------------*/
 .breadcrumb-option {
+  background-color: #d37123;
+}
+
+.breadcrumb-option {
   padding-top: 35px;
 }
 
@@ -1240,6 +1255,10 @@ ol {
 /*---------------------
     Blog
 -----------------------*/
+.blog {
+  background-color: #d37123;
+}
+
 .blog {
   padding-top: 70px;
   padding-bottom: 90px;
@@ -1706,6 +1725,10 @@ ol {
   position: relative;
 }
 
+.footer {
+  background-color: #ff6500;
+}
+
 .page-up {
   position: absolute;
   left: 50%;
@@ -1974,7 +1997,7 @@ ol {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    background-color: #222;
+    background-color: #f807c4;
     position: absolute;
     right: 0;
     top: 9px;
