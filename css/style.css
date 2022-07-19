@@ -1310,6 +1310,10 @@ ol {
   Blog Details
 -----------------------*/
 .blog-details {
+  background-color: #d37123;
+}
+
+.blog-details {
   padding-top: 70px;
 }
 
